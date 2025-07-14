@@ -1,0 +1,10 @@
+# ---Just in team---
+
+
+# ---Global ignore ---
+.env*
+node_modules
+# Next.js
+.next
+out
+

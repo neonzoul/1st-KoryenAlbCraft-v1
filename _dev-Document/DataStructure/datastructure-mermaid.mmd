@@ -1,0 +1,31 @@
+graph TD
+    subgraph "User Interaction"
+        A["User Input: Crafting Item, Quality, Location"] --> B("Frontend UI: CraftingInputForm.tsx")
+    end
+
+    subgraph "Application & API Layer"
+        B -- "Triggers Calculation Request" --> C{"API Endpoint: /api/crafting-profit/route.ts"}
+        C -- "Receives Input & Orchestrates Logic" --> D["Backend Logic: Profit Calculation"]
+        subgraph "Next.js"
+            C
+            D
+        end
+    end
+
+    subgraph "Services Layer"
+        D -- "Calls to Fetch Market Data" --> E["Service Module: /services/albion-data.ts"]
+        E -- "Handles Consolidated Requests" --> F["External API: Albion Online Data Project API"]
+        F -- "Returns Raw JSON Data (Prices, Timestamps, Item IDs)" --> E
+        E -- "Parses JSON & Maps Item IDs to Names" --> G["Internal Data: Item ID Mapping (e.g., item.txt)"]
+        E -- "Provides Market Data (sell_price_min, buy_price_max)" --> D
+    end
+
+    subgraph "Core Business Logic & Data"
+        D -- "Utilizes" --> H["Crafting Recipes (Material Quantities, Return Rates)"]
+        D -- "Applies" --> I["Economic Factors: Market Tax (6.5%), Focus Bonuses)"]
+        H -- "For" --> J["Calculated Profit & Material Breakdown"]
+    end
+
+    J -- "Returns Structured JSON Response" --> C
+    C -- "Sends to" --> B
+    B -- "Displays Results" --> K("Frontend UI: ProfitDisplay.tsx")

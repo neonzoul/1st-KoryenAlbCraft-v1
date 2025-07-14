@@ -1,0 +1,18 @@
+You will understand all the sources to create my project that will solve problem form #bounglive633 as software web app like https://albiononlinetools.com/
+by Version 1 I prefer can solve the problem form #bounglive633 almost completely.
+
+but in version v0.1 or MVP we will just get some (1-2) feature that most useful fist and deliver to Koryen to test
+
+If you understand context, I need you to give something.
+
+1. Document : I need you to analyze requirement of Youtube video and brief in file mp3.
+and re write as document Project - KoryenAlbCraft that will summary with part 1 how  we will solve problem that will use for non-technical can understand like Steave Jobs presentation / part 2 is for dev-technical project guide like Larry Page presentation.
+
+2. Roadmap : create road map like _roadmap.md that I was use from last project in context of Project Document v0.1 to V1  start to day is Day1 week 3 " **Week 3: Foundation, UI & Authentication** " must relevant with Phillip Choi roadmap in video What I would do to break into tech in 6 months or less in 2025
+
+3. From Document create user experience mapping in Phillip Choi meaning. in format , Document detail in markdown(.md), mermaid graph for chart generate,
+
+4. Data structure as mermaid code, markdown document && Logic flow as mermaid code && architecture markdown, 
+
+
+
