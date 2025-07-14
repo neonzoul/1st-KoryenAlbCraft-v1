@@ -4,11 +4,41 @@
 
 ### Log :
 
--   see in \_roadmap.md week3
+-   brainstorm requrement complete week2 in 3hours with Notebook llm.
+    -   \_\_v00 , genesis of project.
+    -   provide project context, painpoint form #bounglive663 in youtube, previous project context, architecture information to notebook LLM.
+        [✔️] Setup WorkSpace.
+        [✔️] Allocate time [all day (after week 3)].
+        [✔️] Draft - brainstorm.md define Product Design **Version1.0**.
+        [✔️] best practice build MVP (v0.1) with conditions.
+        [✔️] Data Structure, Architechture. (if needded.)
+        [✔️] **Create Repo :** initailize project Github repo. - Copilot-create files and folder from structure document.
+        [✔️]Copilot GPT-4.1 : Create Files and Folder by context \_dev-Document and file-folder-structure.md
+        [✔️] QC : re-check created files and folders.
+        [✔️] logbook : create logbook for dairy review.
+        [✔️] **Ceremory:** commit "hello, world."
 
-### Key Story :
+### Key Story : Complete Blueprint within 3 hours
 
 ```
+As the morning filters through here in Songkhla, Start at 8AM after exercise and take some energy from Sun.
+The realuty of today's progress in sinking in. This morning bagan with a sudden pivot.
+.
+A Youtube stream last night from #Bouanglive633 crystallized a problem that felt more immidiate, a pain point I was instantly more passionate and enjoy about solving.
+.
+I knew it was the absolute last chance to change course; with Week 3 marking the start of pure execution, the window for planning was closing fast. It was now or never.
+
+This decision meant compressing two weeks of foundational planning for the new project, KoryenAlbCraft,
+into a sigle, intense session to keep the timeline intact. The workflow was a perfect symphony of human direction and AI execution.
+.
+First, I fed all the high-level context--the new pain point, architectural notes from past projects, the core vision--into the Notebook LLM, which acted as my "Solutions Achitect," generating the complete project blueprint.
+
+Then, I handed that blueprint to GitHub Copilot. Acting as the "Developer," it flawlessly executed the plan, scaffolding the entire project skeleton in minutes.
+.
+This hyper-efficiant process allowed me to not only complete the two weeks of planning but also finish today's original Day 1 tasks.
+.
+the final, ceremonaial commit, "hello, world", was the declaration that the gambit paid off.
+" The project is born, and we are perdectly on schedule.
 
 
 ```

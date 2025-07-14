@@ -1,5 +1,6 @@
-# ---Just in team---
-
+# ---- Public ignore ----
+# _* (all file that start with _)
+__*
 
 # ---Global ignore ---
 .env*

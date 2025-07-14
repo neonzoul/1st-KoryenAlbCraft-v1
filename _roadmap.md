@@ -57,17 +57,17 @@ To optimize your learning during this intensive sprint, consistently apply these
 
 -   **Days 1-2: Project & UI Scaffolding**
 
-    -   Day 1
+    -   ==Day 1==
     -   [✔️] **Create Repo :** initailize project Github repo. - Copilot-create files and folder from structure document.
+    -   [✔️]Copilot GPT-4.1 : Create Files and Folder by context \_dev-Document and file-folder-structure.md
+    -   [✔️] QC : re-check created files and folders.
+    -   [✔️] logbook : create logbook for dairy review.
+    -   [✔️] **Ceremory:** commit "hello, world."
+    -   [✔️]**Learn**: Next.js App Router basics.
 
-        -   [✔️]Copilot GPT-4.1 : Create Files and Folder by context \_dev-Document and file-folder-structure.md
-        -   [✔️] QC : re-check created files and folders.
-        -   [✔️] logbook : create logbook for dairy review.
-        -   [✔️] **Ceremory:** commit "hello, world."
-
-    -   **Learn**: Next.js App Router basics.
-    -   **Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.
-    -   **Learn**: shadcn/ui installation and usage.
+    -   ==Day 2==
+    -   []**Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.
+    -   []**Learn**: shadcn/ui installation and usage.
     -   **Implement**: Initialize shadcn/ui and build the basic page layout for KoryenAlbCraft, including a header and main content area.
         [] **Commit**: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
 
@@ -139,17 +139,24 @@ To optimize your learning during this intensive sprint, consistently apply these
 
 After completing Week 4, your KoryenAlbCraft MVP (Version 0.1) should be ready for initial delivery to Koryen for testing and feedback. This aligns with the "Build in Public" strategy (around week 8 of the broader 6-month plan) by having a minimal working product to share.
 
-# <font color = yellow> ----Week 6+ Expansion (Towards Version 1.0)---- </font>
+# <font color = yellow> ----Week 6+ Expansion / Build in Public (Towards Version 1.0)---- </font>
 
 Future development will focus on scaling and refining KoryenAlbCraft to address the full scope of the crafting and market analysis problem:
 
--   **Advanced Albion Data Project Integration**: Implement **consolidated API requests** (e.g., comma-separated item IDs and locations in a single API call) to efficiently fetch data for multiple items, locations, and qualities, directly addressing the API rate limit issue (180 requests/minute). Develop a robust **item ID mapping solution**.
--   **Comprehensive Profit Calculation**: Calculate profits for a **wide range of crafting items and all qualities** across **multiple cities simultaneously**.
--   **Dynamic Recipe Management**: Create a system for **dynamic input and storage of multiple crafting recipes**, including material quantities, tax rates, specific return rates, and focus bonuses.
--   **Market Arbitrage Identification**: Identify **profitable "flip" opportunities** by comparing buy and sell orders across different cities, similar to existing tools like Albion Online Tools' Market Flipper.
--   **Performance Optimization**: Implement caching strategies to minimize redundant API calls and speed up data retrieval.
--   **User Authentication (If applicable)**: Integrate Auth.js with Google OAuth if the tool is intended for a closed community or for storing personalized recipes. This would align with the idea of keeping the tool exclusive to "our community".
--   **Build in Public**: Continue documenting your journey, sharing progress, challenges, and breakthroughs on platforms like GitHub and LinkedIn. This builds your reputation as a problem-solver and creates accountability.
--   **Accelerate with Guided Mentorship**: Around Week 12 (or as needed), consider finding a mentor to avoid costly detours, gain insider knowledge, ensure accountability, and provide psychological support, significantly compressing your learning curve.
+-   **Advanced Albion Data Project Integration:** Implement **consolidated API requests** (e.g., comma-separated item IDs and locations in a single API call) to efficiently fetch data for multiple items, locations, and qualities, directly addressing the API rate limit issue (180 requests/minute). Develop a robust **item ID mapping solution**.
+-   **Comprehensive Profit Calculation:** Calculate profits for a **wide range of crafting items and all qualities** across **multiple cities simultaneously**.
+-   **Dynamic Recipe Management:** Create a system for **dynamic input and storage of multiple crafting recipes**, including material quantities, tax rates, specific return rates, and focus bonuses.
+-   **Market Arbitrage Identification:** Identify **profitable "flip" opportunities** by comparing buy and sell orders across different cities, similar to existing tools like Albion Online Tools' Market Flipper.
+-   **Performance Optimization:** Implement caching strategies to minimize redundant API calls and speed up data retrieval.
+-   **User Authentication (If applicable):** Integrate Auth.js with Google OAuth if the tool is intended for a closed community or for storing personalized recipes. This would align with the idea of keeping the tool exclusive to "our community".
+-   **Build in Public Strategy:**
+    -   **Starting around Week 8, once a minimal working product (MVP) is ready, begin documenting your journey in public**.
+    -   This involves **regularly sharing progress updates, challenges, and breakthroughs on platforms such as GitHub, Twitter, Tiktok,Youtube weekly**.
+    -   This strategy is **non-negotiable** in a six-month plan (or similar rapid transition timeline) for three key reasons, as highlighted by Phillip Choi:
+        -   It **forces you to articulate your thinking, deepening your understanding** of what you are building.
+        -   It **creates accountability and momentum**, especially when motivation inevitably dips.
+        -   It **builds your reputation as a problem-solver before you ever apply for a job**, establishing a clear timeline that hiring managers can view.
+    -   This approach aligns with the success of others, such as Sheay, a mentee who landed a development role by consistently sharing his learning journey.
+-   **Accelerate with Guided Mentorship:** Around Week 12 (or as needed), consider finding a mentor to avoid costly detours, gain insider knowledge, ensure accountability, and provide psychological support, significantly compressing your learning curve.
 
 By following this phased approach, KoryenAlbCraft will effectively transform a tedious, error-prone manual process into a streamlined, real-time, and powerful economic tool for Albion Online players, showcasing your problem-solving skills to potential employers.
