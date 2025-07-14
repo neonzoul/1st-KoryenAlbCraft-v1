@@ -74,9 +74,15 @@ To optimize your learning during this intensive sprint, consistently apply these
 
 **Mission**: Go from an empty folder to a deployed application where a user can (optionally, for future v1.0) log in with Google and see the main interface for KoryenAlbCraft.
 
--   [] **Days 1-2: Project & UI Scaffolding**
-    `[]` **Create Repo :** initailize project Github repo.
-    `[]` **Ceremory:** commit "hello, world."
+-   **Days 1-2: Project & UI Scaffolding**
+
+    -   Day 1
+    -   [✔️] **Create Repo :** initailize project Github repo. - Copilot-create files and folder from structure document.
+
+        -   [✔️]Copilot GPT-4.1 : Create Files and Folder by context \_dev-Document and file-folder-structure.md
+        -   [✔️] QC : re-check created files and folders.
+        -   [✔️] logbook : create logbook for dairy review.
+        -   [] **Ceremory:** commit "hello, world."
 
     -   **Learn**: Next.js App Router basics.
     -   **Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.

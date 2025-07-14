@@ -12,29 +12,29 @@ The architecture draws inspiration from the Component-Based Architecture (CBA) p
 │                                         # Conditionally renders Login/Main Interface
 │
 ├── components/                           # Reusable UI components and feature modules
-│   ├── ui/                               # UI Primitives (Atoms) - Basic building blocks (from shadcn/ui)
-│   │   ├── Button.tsx                    # Consistent, accessible button
-│   │   ├── Input.tsx                     # Standardized text input field
-│   │   ├── Select.tsx                    # For item/location selection
-│   │   ├── Table.tsx                     # For displaying calculated results
-│   │   └── index.ts                      # Re-exports all UI primitives
+│   ├── features/                         # Feature Modules (Molecules & Organisms) - Grouped by domain
+│   │   └── crafting-profit/              # Components specific to crafting profit feature
+│   │       ├── CraftingInputForm.tsx     # Encapsulates user inputs (item, quality, location)
+│   │       ├── ProfitDisplay.tsx         # Renders calculated profit and material breakdown
+│   │       ├── LocationSelector.tsx      # (Potentially) For easy city selection in UI
+│   │       └── index.ts                  # Re-exports all components in this feature folder
 │   │
-│   └── features/                         # Feature Modules (Molecules & Organisms) - Grouped by domain
-│       └── crafting-profit/              # Components specific to crafting profit feature
-│           ├── CraftingInputForm.tsx     # Encapsulates user inputs (item, quality, location)
-│           ├── ProfitDisplay.tsx         # Renders calculated profit and material breakdown
-│           ├── LocationSelector.tsx      # (Potentially) For easy city selection in UI
-│           └── index.ts                  # Re-exports all components in this feature folder
-│
-├── services/                             # Server-side modules for external API communication
-│   └── albion-data.ts                    # Critical module for Albion Online Data Project API.
-│                                         # Handles fetching market data and initial item ID mapping
+│   └── ui/                  # UI Primitives (Atoms) - Basic building blocks (from shadcn/ui)
+│       ├── Button.tsx             # Consistent, accessible button
+│       ├── Input.tsx              # Standardized text input field
+│       ├── Select.tsx             # For item/location selection
+│       ├── Table.tsx              # For displaying calculated results
+│       └── index.ts               # Re-exports all UI primitives
 │
 ├── lib/                                  # Business logic and reusable server-side functions
 │   ├── profit-calculation.ts             # Core logic for profit calculation
 │   │                                     # Accounts for market tax (6.5%) and return rates
 │   ├── item-mapping.ts                   # Manages mapping between in-game item names and server IDs
 │   └── recipes.ts                        # Stores crafting recipes (initially hardcoded for MVP)
+│
+├── services/                             # Server-side modules for external API communication
+│   └── albion-data.ts                    # Critical module for Albion Online Data Project API.
+│                                         # Handles fetching market data and initial item ID mapping
 │
 ├── styles/                               # Global styles and theme constants
 │   ├── theme.ts                          # Color, spacing, typography constants
