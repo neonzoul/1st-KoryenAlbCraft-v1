@@ -63,7 +63,7 @@ To optimize your learning during this intensive sprint, consistently apply these
         -   [✔️]Copilot GPT-4.1 : Create Files and Folder by context \_dev-Document and file-folder-structure.md
         -   [✔️] QC : re-check created files and folders.
         -   [✔️] logbook : create logbook for dairy review.
-        -   [] **Ceremory:** commit "hello, world."
+        -   [✔️] **Ceremory:** commit "hello, world."
 
     -   **Learn**: Next.js App Router basics.
     -   **Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.
