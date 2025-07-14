@@ -25,33 +25,14 @@
 [✔️] Data Structure. (if needded.)
 [✔️] Finish Before start (optional)
 
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
 # <font color = yellow> ----week 3-4 build while learning---- </font>
 
-## Before start.
-
-1. Sketch out exactly what my app would do
-   [✔️] Prototyping V0.1 (skip have to craft very tide prompt.)
-   [✔️] Prompt craft mock up 1 situation.
-   [✔️] Tempo Labs prototype. (acc : boldgmail)
-2. Break it into manageable components
-   [✔️] Component Architecture mapping, document, Folder Structure.
-3. Learn precisely what I need to build each piece(Learn, then implement immediately)
-   ([✔️]Create Phased Development Plan complete in week 2)
-   ex. start by mapping the user expretirnce and data flow. then can learn what needed to create each component from user authentication to data visualization. // "How should I structure this database to scale efficiently?" // "What's the most intuitive user flow for this feature?" // "How do I optimize performance for this calculation?"
-
-Evidence baed learing techniques
-
-1. use Pomodoro
-2. Practice active recall instead of passive re-reading.
-3. Implement spaced repetition for key concepts.
-4. Teach what I learn to deepen understanding.
-
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
+### **----Week 3-4 Build While Learning----**
 
 <!-- Here is a roadmap for KoryenAlbCraft project, formatted like a `_roadmap.md` file, incorporating details from "Deliver 1.1" plan and Phillip Choi's "What I would do to break into tech in 6 months or less in 2025" strategy, starting from Day 1 of Week 3. -->
-
-### **----Week 3-4 Build While Learning----**
 
 #### Before Start
 
