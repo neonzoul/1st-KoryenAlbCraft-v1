@@ -61,6 +61,8 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
 -   **implement**- complete To-Do List:
     -   npm install
     -   create new email for dev part (mosspiece.dev@gmail.com)
+    -   commit "npm install"
+    -   Fix Deploy error
     -   [ ]Verify Local Setu:
         -   Open your project terminal and run `npm install` to install all the necessary dependencies.
         -   Run the development server with `npm run dev` to confirm the project works on your local machine.
