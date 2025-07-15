@@ -3,3 +3,4 @@
 -   next
 -   react
 -   react-dom
+-   shadcn-ui

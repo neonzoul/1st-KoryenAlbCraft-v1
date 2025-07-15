@@ -59,16 +59,16 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
         -   Briefly review the `shadcn/ui` installation and usage documentation.
 -   Setting VScode
 -   **implement**- complete To-Do List:
-    -   npm install
-    -   create new email for dev part (mosspiece.dev@gmail.com)
-    -   commit "npm install"
-    -   Fix Deploy error
-    -   [ ]Verify Local Setu:
+
+    -   [✔️]Verify Local Setu:
         -   Open your project terminal and run `npm install` to install all the necessary dependencies.
+        -   commit "npm install"
         -   Run the development server with `npm run dev` to confirm the project works on your local machine.
-    -   [ ]Deploy to Verce:
+    -   [✔️]Deploy to Verce:
         -   Push your initial commit to your GitHub repository.
+        -   create new email for dev part (mosspiece.dev@gmail.com)
         -   Go to your Vercel dashboard and import the GitHub repository to deploy it. This establishes your continuous deployment pipeline.
+        -   Fixed Deploy error
     -   [ ]Integrate UI Librar:
         -   Implemen: Initializeshadcn/u in project using its CLI command.
     -   [ ]Build Basic Page Layou:
