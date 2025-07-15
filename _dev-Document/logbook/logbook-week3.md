@@ -46,3 +46,34 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
 ---
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+## <font color = #895129> Day.. 25-07-15 </font>
+
+### Title :
+
+### Log :
+
+-   **Learn**
+    -   ..Notebook LLM.
+    -   ..Gemini..
+        -   Briefly review the `shadcn/ui` installation and usage documentation.
+-   Setting VScode
+-   **implement**- complete To-Do List:
+    -   npm install
+    -   create new email for dev part (mosspiece.dev@gmail.com)
+    -   [ ]Verify Local Setu:
+        -   Open your project terminal and run `npm install` to install all the necessary dependencies.
+        -   Run the development server with `npm run dev` to confirm the project works on your local machine.
+    -   [ ]Deploy to Verce:
+        -   Push your initial commit to your GitHub repository.
+        -   Go to your Vercel dashboard and import the GitHub repository to deploy it. This establishes your continuous deployment pipeline.
+    -   [ ]Integrate UI Librar:
+        -   Implemen: Initializeshadcn/u in project using its CLI command.
+    -   [ ]Build Basic Page Layou:
+        -   Implemen: Modify `/app/layout.tsx` to create the basic page structure. Add a simple header component and ensure the `children` prop is rendered within a `<main>` tag.
+    -   [ ]Commit Your Progres:
+        -   Stage and commit all your changes with the planned message: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
+
+---
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->

@@ -1,4 +1,4 @@
-# <font color=yellow> ----week 1-2---- </font>
+# <font color=#FF7E70> ----week 1-2---- </font>
 
 [✔️] Setup WorkSpace.
 [✔️] Allocate time [all day (after week 3)].
@@ -28,7 +28,7 @@
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 
-# <font color = yellow> ----week 3-4 build while learning---- </font>
+# <font color = #FF7E70> ----week 3-4 build while learning---- </font>
 
 ### **----Week 3-4 Build While Learning----**
 
@@ -66,6 +66,7 @@ To optimize your learning during this intensive sprint, consistently apply these
     -   [✔️]**Learn**: Next.js App Router basics.
 
     -   ==Day 2==
+    -   [✔️]**Learn** :
     -   []**Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.
     -   []**Learn**: shadcn/ui installation and usage.
     -   **Implement**: Initialize shadcn/ui and build the basic page layout for KoryenAlbCraft, including a header and main content area.
@@ -96,7 +97,7 @@ To optimize your learning during this intensive sprint, consistently apply these
 
 ---
 
-#### Week 4: Core Logic, Integration & Finalization Sprint
+# <font color = #FF7E70> ----Week 4: Core Logic, Integration & Finalization Sprint---- </font>
 
 **Mission**: To build the application's "brain" for profit calculation, connect it to the UI, and finalize the MVP (Version 0.1) for testing.
 
@@ -135,14 +136,15 @@ To optimize your learning during this intensive sprint, consistently apply these
 
 ---
 
-# <font color = yellow> ----week 5 Ship---- </font>
+# <font color = #FF7E70> ----week 5 Ship---- </font>
 
 After completing Week 4, your KoryenAlbCraft MVP (Version 0.1) should be ready for initial delivery to Koryen for testing and feedback. This aligns with the "Build in Public" strategy (around week 8 of the broader 6-month plan) by having a minimal working product to share.
 
-# <font color = yellow> ----Week 6+ Expansion / Build in Public (Towards Version 1.0)---- </font>
+# <font color = #FF7E70> ----Week 6+ Expansion / Build in Public (Towards Version 1.0)---- </font>
 
 Future development will focus on scaling and refining KoryenAlbCraft to address the full scope of the crafting and market analysis problem:
 
+-   **Consider Recheck Stech Stack:** After delivering v0.1 to Koryen, start kick-off to version1 consider remove Vercel, consider Next.js from stack replace with Node.js Typscript. , Express.js including change Architecture to API component base architectire.
 -   **Advanced Albion Data Project Integration:** Implement **consolidated API requests** (e.g., comma-separated item IDs and locations in a single API call) to efficiently fetch data for multiple items, locations, and qualities, directly addressing the API rate limit issue (180 requests/minute). Develop a robust **item ID mapping solution**.
 -   **Comprehensive Profit Calculation:** Calculate profits for a **wide range of crafting items and all qualities** across **multiple cities simultaneously**.
 -   **Dynamic Recipe Management:** Create a system for **dynamic input and storage of multiple crafting recipes**, including material quantities, tax rates, specific return rates, and focus bonuses.
