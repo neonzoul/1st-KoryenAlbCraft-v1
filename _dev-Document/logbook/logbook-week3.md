@@ -69,9 +69,9 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
         -   create new email for dev part (mosspiece.dev@gmail.com)
         -   Go to your Vercel dashboard and import the GitHub repository to deploy it. This establishes your continuous deployment pipeline.
         -   Fixed Deploy error
-    -   [ ]Integrate UI Librar:
+    -   [✔️]Integrate UI Librar:
         -   Implemen: Initializeshadcn/u in project using its CLI command.
-    -   [ ]Build Basic Page Layou:
+    -   [ ]Build Basic Page Layout:
         -   Implemen: Modify `/app/layout.tsx` to create the basic page structure. Add a simple header component and ensure the `children` prop is rendered within a `<main>` tag.
     -   [ ]Commit Your Progres:
         -   Stage and commit all your changes with the planned message: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
