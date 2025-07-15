@@ -47,34 +47,84 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
 
-## <font color = #895129> Day.. 25-07-15 </font>
+## <font color = #895129> Day2 25-07-15 </font>
 
 ### Title :
 
 ### Log :
 
+-   Add "Consider - Review Stech stack for v1 (after deliver v0.1)
+    -   To review maybe can replace Vercel to Docker and DigitalOcean Droplet for scalable and cost efficiancy.
 -   **Learn**
-    -   ..Notebook LLM.
-    -   ..Gemini..
+    -   use Notbooklm to define learning scope for today.
+    -   Provide to Gemini and learn with talking with Gemini2.5 pro
         -   Briefly review the `shadcn/ui` installation and usage documentation.
 -   Setting VScode
+    -   Theme, files&folders icon like Phil(Meterail Icon Theme)
 -   **implement**- complete To-Do List:
 
     -   [✔️]Verify Local Setu:
         -   Open your project terminal and run `npm install` to install all the necessary dependencies.
         -   commit "npm install"
         -   Run the development server with `npm run dev` to confirm the project works on your local machine.
-    -   [✔️]Deploy to Verce:
+    -   [✔️]Deploy to Vercel:
         -   Push your initial commit to your GitHub repository.
         -   create new email for dev part (mosspiece.dev@gmail.com)
         -   Go to your Vercel dashboard and import the GitHub repository to deploy it. This establishes your continuous deployment pipeline.
         -   Fixed Deploy error
     -   [✔️]Integrate UI Librar:
         -   Implemen: Initializeshadcn/u in project using its CLI command.
-    -   [ ]Build Basic Page Layout:
-        -   Implemen: Modify `/app/layout.tsx` to create the basic page structure. Add a simple header component and ensure the `children` prop is rendered within a `<main>` tag.
-    -   [ ]Commit Your Progres:
+    -   [✔️]Build Basic Page Layout:
+        -   Implemen using Git Copilot 3.5sonnet: Modify `/app/layout.tsx` to create the basic page structure. Add a simple header component and ensure the `children` prop is rendered within a `<main>` tag.
+    -   [✔️]Commit Your Progres:
         -   Stage and commit all your changes with the planned message: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
+
+-   **Key learing**
+    -   Deeply understand Vercel that is like automatic deploy method. (as Docker but completly auto from Github repo)
+    -   Setting color theme in setting.json
+    -   Fix Deploy error
+        -   Vercel can't "run build"
+        -   Why : route.ts file if emty
+            -   (Typo GET -> Get) [Gemini 2.5 help to fine.]
+        -   Solution : Gemini 2.5pro generate mockup code just for deploy. also edited Typo "GET".
+    -   Fix shadcn/ui install error
+        -   issue: can't find Next environment.
+        -   Why: the project doesn't install Next to the project at first.
+        -   Solution: Use temp-next-project directory to install Next project (use npx create-next-app@latest .) then copy package.json
+            and Next.js environment from temp to Project directory. -> npm install (from package.json list.)
+
+### Key Story : Complete Blueprint within 3 hours
+
+```
+As the morning light filters in here Songkhla, a quiet sense of satisfaction settles in.
+Today wasn't just about ticking off boxes; it was about laying the badrock for **KoryenAlbCraft** with surgical precision, ensuring every piece clicked into place.
+
+The day began by setting a clear learning scope with NotebookLM, then immediately diving into the implementation.
+This whole process feels like a finely tuned machine, with me as the conductor and AI as my orchestra.
+We swiftly navigated the initial project setup: $npm install humming along, then a quick $npm run dev to comfirm local vitality.
+
+The real test cam with deployment. Vercel, in all its automated glory, was the next frontier.
+Pushing to GitHub, setting up the pipeline - it almost felt too easy.
+Until, of course, it wasn't. A crytic deployment error halted progress. But this is where the collaboration truly shone: Gemini
+2.5Pro instantly pinpointed the culprit (an empty route.ts file and a sneaky typo, 'Get' instead of 'GET'). With a generated mockup
+fix from Gemini, the pipeline finally turned green. It was a stark reminder of Vercel's deep automation, transforming GitHub commits
+directly into live deployments, almost like Docker but with an invisible hand.
+
+Then came **shadcn/ui**. Another hiccup, this time a missing Next.js project, salvaging the core package.json and environment, and bringging them
+back to inject life into KoryenAlbCraft's roots. This was the rapid problem-solving, the "build while learing" in action.
+
+By day's end, the basic page layout was crafted with the effortless assistance of GitHub Copilot3.5sonnet.
+Every piece of the initial scaffold was not just built, but verified, integrated, and then ceremoniously committed
+with "feat: Initial KoryenAlbCraft scaffolf and UI layout."
+
+The core foundation is now solid, the continuous deployment pipeline is humming, and the immediate challenges have been overcome.
+The thought of migrating from Vercel to Docker and DigitalOcean for v1 is already sparking ideas -- always optimizing for scalability and cost efficiency.
+It's a relentless drive to build something truly robust.
+
+---
+author : Gemini2.5flash | score 2.4/5 | comment - some word picking., good for compose content.
+source : Logbook 25-07-15
+```
 
 ---
 
