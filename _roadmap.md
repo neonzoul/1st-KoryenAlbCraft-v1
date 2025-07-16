@@ -70,7 +70,7 @@ To optimize your learning during this intensive sprint, consistently apply these
     -   [✔️]**Implement**: Initialize your Next.js project, configure Git/GitHub, and deploy the boilerplate to Vercel.
     -   [✔️]**Learn**: shadcn/ui installation and usage.
     -   **Implement**: Initialize shadcn/ui and build the basic page layout for KoryenAlbCraft, including a header and main content area.
-        [] **Commit**: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
+        [✔️] **Commit**: `git commit -m "feat: Initial KoryenAlbCraft scaffold and UI layout"`
 
 -   **Days 3-4: Authentication Implementation (Optional for MVP, but good foundational practice)**
 

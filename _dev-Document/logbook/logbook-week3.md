@@ -129,3 +129,19 @@ source : Logbook 25-07-15
 ---
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+## <font color = #895129> Day3 25-07-16 </font>
+
+### Title :
+
+### Log :
+
+-   Create google cloud console (mosspiece.dev@)
+-   Setting Payment method
+-   create credentails from google for OAuth 2.0
+-   setup GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET to .env.local file.
+-   re check .gitignore file.
+
+---
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
