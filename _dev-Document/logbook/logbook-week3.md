@@ -168,6 +168,7 @@ source : Logbook 25-07-15
         - Kiro sonnet3.7 recheck : syntax, typo -> comment.
         - Got issue - SessionProvider cannot directly to root.
             - Kiro gave solution. -> use it to discuss (code style) with Gimini2.5 pro [solution and reason to use..writed in learn/keylearn_week3]
+            - Edit app layout (SessionProvider to AuthProvider)
     6. [] Add Environment Variables to Vercel
     7. [] Commit Changes
 
