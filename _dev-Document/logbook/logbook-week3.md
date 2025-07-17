@@ -158,8 +158,9 @@ source : Logbook 25-07-15
     -   Create To-do
 -   **Implement**
 -   To-do lists.
-    1. [] Install Auth.js
+    1. [✔️] Install Auth.js
     2. [] Configure Secrets (.env.local)
+        - generate secret key
     3. [] Create the Main Auth.js Configuration
     4. [] Create the API Route Handler
     5. [] Wrap App with SessionProvider
