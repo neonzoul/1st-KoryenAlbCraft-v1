@@ -64,7 +64,7 @@ the final, ceremonaial commit, "hello, world", was the declaration that the gamb
 -   **implement**- complete To-Do List:
 
     -   [✔️]Verify Local Setu:
-        -   Open your project terminal and run `npm install` to install all the necessary dependencies.
+        -   Open project terminal and run `npm install` to install all the necessary dependencies.
         -   commit "npm install"
         -   Run the development server with `npm run dev` to confirm the project works on your local machine.
     -   [✔️]Deploy to Vercel:
@@ -141,6 +141,30 @@ source : Logbook 25-07-15
 -   create credentails from google for OAuth 2.0
 -   setup GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET to .env.local file.
 -   re check .gitignore file.
+
+---
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+## <font color = #895129> Day4 25-07-17 </font>
+
+### Title :
+
+### Log :
+
+-   NotbookLm
+-   Gemini
+    -   Learn (sharp knowled that pre learned yester day)
+    -   Create To-do
+-   **Implement**
+-   To-do lists.
+    1. [] Install Auth.js
+    2. [] Configure Secrets (.env.local)
+    3. [] Create the Main Auth.js Configuration
+    4. [] Create the API Route Handler
+    5. [] Wrap App with SessionProvider
+    6. [] Add Environment Variables to Vercel
+    7. [] Commit Changes
 
 ---
 

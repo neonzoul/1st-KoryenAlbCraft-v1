@@ -1,14 +1,14 @@
 # ---- Public ignore ----
-# _* (all file that start with _)
+_*
 __*
 
 # ---Global ignore ---
 
 
-# ***env files (can opt-in for committing if needed)
+##- ***env files (can opt-in for committing if needed)
 .env*
 
-# dependencies
+##- dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -18,39 +18,39 @@ __*
 !.yarn/releases
 !.yarn/versions
 
-# testing
+##- testing
 /coverage
 
-# next.js
+##- next.js
 /.next/
 /out/
 
-# production
+##- production
 /build
 
-# OS generated files (misc)
+##- OS generated files (misc)
 .DS_Store
 Thumbs.db
 *.pem
 
-# debug Logs
+##- debug Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# vercel
+##- vercel
 .vercel
 
-# typescript
+##- typescript
 *.tsbuildinfo
 next-env.d.ts
 
 
-# IDE files
+##- IDE files
 # .vscode/
 # .idea/
 #*.swp
 
-# Build output
+##- Build output
 dist/
